@@ -1,0 +1,14 @@
+{
+  "name": "mcpweigh",
+  "version": "0.1.0",
+  "description": "Measure how many tokens your MCP servers' tool definitions cost on every request.",
+  "type": "module",
+  "bin": { "mcpweigh": "bin/mcpweigh.js" },
+  "files": ["bin", "src", "examples", "skill", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test", "demo": "node bin/mcpweigh.js --config examples/demo.json" },
+  "engines": { "node": ">=20" },
+  "keywords": ["mcp", "model-context-protocol", "ai", "agents", "claude-code", "cursor", "tokens", "cli"],
+  "author": "monoaster",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/monoaster/mcpweigh.git" }
+}

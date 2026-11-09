@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "repo-tools": {
+      "command": "node",
+      "args": ["fake-server.js", "--profile", "big", "--tools", "24", "--page-size", "10"]
+    },
+    "clock": {
+      "command": "node",
+      "args": ["fake-server.js", "--tools", "2"]
+    },
+    "broken": {
+      "command": "node",
+      "args": ["fake-server.js", "--crash"]
+    },
+    "remote-docs": {
+      "type": "sse",
+      "url": "https://example.com/sse"
+    }
+  }
+}
